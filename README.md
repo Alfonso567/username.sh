@@ -1,13 +1,13 @@
 # README for Username Validation Script
 
 ## Author Information
-- **Name:** [Your Full Name]
-- **Course:** [Course Number and Name]
-- **Assignment:** Username Validation
-- **Date:** [Date of Completion]
+- **Name: Alfonso Lopez** [Your Full Name]
+- **Course:CPSC298 ** [Course Number and Name]
+- **Assignment: Username.sh ** Username Validatio
+- **Date: 10/13/25** [Date of Completion]
 
 ## Program Description
-[Write 2-3 sentences in your own words describing what this script does and its purpose. Explain the problem it solves and how it works at a high level.]
+this program allows users to write a username with 3 diffrent rules, it cannot be longer than 12 charecters and at least 3, only lowecase letters, digits and underlines, finally it must start with a lowecase letter
 
 ## Username Requirements
 This script validates usernames according to the following rules:
@@ -27,7 +27,7 @@ To test with the provided input file:
 ```
 
 ## How the Script Works
-[Explain in 3-5 sentences how your script validates usernames. Include information about:]
+it echos/ tells the user what makes a valid username then it allows users to write it, it then checks wheather the username matches all the requierments, if it doesnt it says invalid username the use of the while loop is to check each charecter in order to make sure it meets the requiernents 
 - The use of the `while` loop
 - The `grep` command with extended regular expressions
 - The meaning of the `-E` and `-v` flags

@@ -1,5 +1,5 @@
 #!/bin/bash
-# insurance.sh
+# username.sh
 # Alfonso Lopez
 # CPSC298
 

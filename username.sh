@@ -25,7 +25,6 @@ while true; do
   fi
 done
 
-./username.sh < username-input
 git add username.sh
 
 git rm zip.sh

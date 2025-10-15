@@ -4,8 +4,7 @@
 # CPSC298
 
 git clone https://github.com/Alfonso567/username.sh.git
-cd username.sh
-cp zip.sh username.sh
+cd username.sh || exit 
 
 echo "Welcome to the username validator!"
 echo "Your username must follow these rules:"

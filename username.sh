@@ -3,8 +3,6 @@
 # Alfonso Lopez
 # CPSC298
 
-git clone https://github.com/Alfonso567/username.sh.git
-
 echo "Welcome to the username validator!"
 echo "Your username must follow these rules:"
 echo "1. Only lowercase letters, digits, and underscores are allowed."
@@ -13,7 +11,7 @@ echo "3. It must be between 3 and 12 characters long."
 
 while true; do
   echo -n "Please enter a username: "
-  read -r username
+  read -r username < test-input.txt
 
   if [[ "$username" =~ ^[a-z][a-z0-9_]{2,11}$ ]]; then
     echo "$username is a valid username."
@@ -23,11 +21,4 @@ while true; do
   fi
 done
 
-git add username.sh
 
-git rm zip.sh
-git rm zip-input
-git add README.md
-
-git commit -m "Add username validator script and update README"
-git push origin main

@@ -14,7 +14,7 @@ echo "3. It must be between 3 and 12 characters long."
 
 while true; do
   echo -n "Please enter a username: "
-  read username
+  read -r username
 
   if [[ "$username" =~ ^[a-z][a-z0-9_]{2,11}$ ]]; then
     echo "$username is a valid username."
